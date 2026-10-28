@@ -4,42 +4,59 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My web_dev_portofolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>My personal portofolio</h1>
+    <div class="landing-section">
+    <h1 class="title">My personal portofolio</h1>
 
+    <div class="header-container">
     <header>
         <nav>
-            <div>
+            <div class="nav-block">  
+            <div class="logo-container">
+                <div class="logo" >
                 <p>U</p>
+                </div>
                 <p>Usanase</p>
             </div>
-            <ul>
+            <div>   
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><button><a href="#contact">Contact Me</a></button></li>
+                <li><button class="contact-button"><a href="#contact">Contact Me</a></button></li>
             </ul>
+           </div>
+           </div>
+
         </nav>
     </header>
     <main> 
-        <div>
-        <div>
-        <h2>Hello , I am Usanase Makala</h2>
+        <div class="main-container">
+        <div class="text-main-container">
+        <h2>Hello , I am </h2>
+        <h2>Usanase Makala</h2>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        <button>Say Hello </button>
+        <button class="text-main-container-butt">Say Hello </button>
         </div>
-        <div>
-            <img src="./images/web-dev.jfif" alt="Hero Image" class="hero-image">
+        <div class="image-main-container">
+            <img src="./images/web-dev.jfif"  width="450px" height="300px" alt="web-dev">
         </div>
         </div>
 
     </main>
+    </div>
 
-
+  </div>
 </body>
 
 </html>

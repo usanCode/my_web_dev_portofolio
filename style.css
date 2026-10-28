@@ -1,0 +1,137 @@
+body{
+    
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+.landing-section{
+    margin: auto;
+    background-color:#c2bfbf ;
+    padding: 0.5%;
+    width: 97%;
+    height: 97%;
+    border-radius: 20px;
+}
+
+.title{
+text-align: center;
+color: #f8f2f2;
+font-weight: bolder;
+font-size : 50px;
+}
+
+.header-container{
+     margin: auto;
+     padding: 1%;
+    background-color: #fffdfd;
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+
+
+}
+
+.nav-block{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding-right: 4%;
+    padding-left: 4%;
+
+
+}
+
+
+.logo-container{
+    display: flex;
+    gap:10px;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+.logo{
+    background-color: #2a51f0;
+    color:#fffdfd ;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: bold;
+    width: 65px;
+    height:65px;
+    text-align: center;
+    border-radius: 50%;
+  
+   }
+
+.nav-links{
+    display: flex;
+    justify-content: right;
+    
+    
+    gap: 20px;
+    font-family: inter;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+       
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.contact-button{
+    background-color:#2a51f0 ;
+    padding: 2%;
+    
+    
+    
+
+}
+.contact-button a {
+
+    color:#fffdfd;
+    font-weight: bold;
+    font-family: Inter, sans-serif ;
+}
+
+.main-container{
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    background-color: #d8d6d6;
+    width: 95%;
+    height:95%;
+    border-radius: 20px;
+}
+.text-main-container{
+
+width: 45%;
+height: 45%;
+padding:1%;
+
+}
+
+.text-main-container-butt{
+    background-color:#2a51f0 ;
+     color:#fffdfd;
+    font-weight: bold;
+    font-family: inter;
+
+
+}
+
+.image-main-container{
+    width: 48%;
+    height: 48%;
+    padding:1%;
+    justify-items: center;
+
+
+}
