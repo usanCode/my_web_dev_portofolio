@@ -137,74 +137,95 @@ padding:1%;
 .about-section{
     
     width: 100%;
+    height: auto;
     background-color: #ffffff;
     justify-content: space-between;
     padding: 1%;
+
+    
 }
 
 .about-section-container{
     display: flex;
     justify-content: space-between;
     padding: 1%;
-    width: 100%; 
+    width: 100%;
+    height: auto; 
     box-sizing: border-box;
    
 }
 
+.h1-style{
+    font-size: 2.5rem;      /* Match your H1 font size */
+  font-weight: 800;       /* Match your H1 thickness */
+  line-height: 1.2; 
+
+font-weight: bold;
+font-family:inter;
+
+
+}
+
 .about-image-social-icons-container{
-   width: auto;
+   width: 46%;
+   height: auto;
    justify-content: center;
    align-items: center;
-   padding: 20px;
+   
    
 }
 
-.about-image-main-container{
-    display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-   width: 100%;
-   height: 100%;
+.about-image-container{    
+    
+   text-align: center;
+  
+   
+
+
+    
     
  
   
    
 }
-.about-image-main-container img{
+.about-image-container img{
     
-  grid-column: 1;
-  grid-row: 1;
-  max-width: 100%;
-  height: auto;
+  width: 500px;
+  height: 437px; 
+  border-radius: 2%;
+
+
+  
+ 
+  
+  
+ 
  
      
 }
 
 .about-social-icons{
 
-  grid-column: 1;
-  grid-row: 1;
-  z-index: 5; /* Explicitly forces icons to stay in front of the image */
-    /* Alignment without any transforms or negative numbers */
-  justify-self: center; /* Horizontally centers the icons inside the image */
-  align-self: end;      /* Vertically pushes icons to the absolute bottom of the image */
-    /* Spacing */
-  padding-bottom: 20px; /* Locks them exactly 20 pixels above the bottom edge */
-    /* Layout for the icons inside the container */
+  width: 317px;
+  height: 20px;
   display: flex;
-  gap: 12px;
-
+  z-index: 5; 
+  justify-self: center; 
+  align-self: end;      
+  padding-bottom: 20px; 
+ 
+   
 }
 
 
 .about-social-icons ul{
     
     display: flex;   
-    width: 200px;
+    width: 250px;
     height: auto; 
     margin: -20px;
     padding: 2%;  
-    gap: 4%;   
+    gap: 15%;   
     list-style: none;
     border: 2px solid #ffffff ;
     justify-content: center;
@@ -216,21 +237,31 @@ padding:1%;
     
  }
 
-.about-text-main-container{
-
-     width: 45%;
-     height: 45%;
-     padding:1%;
+ .about-social-icons li{
+    
+    width: 20px;
+    height: 20px;
+   
+    
+ }
+.h3-space{
+  margin-top: 5px;    
+  margin-bottom: 5px; 
 
 }
+
 .about-text-container{
     
-    padding: 2%;
+    width: 50%;
+    height: auto;
+   
 
 }
 .about-paragraph{
     
     text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .about-project{
     background-color:#2a51f0 ;
@@ -239,13 +270,14 @@ padding:1%;
     font-family: inter;
     padding: 1%;
     margin-right: 5%;
+    border-radius: 10px;
 }
 .about-download{
     background-color:#fffdfd ; 
     color:#2a51f0;
     font-weight: bold;
     font-family: inter;
-    padding: 1%;
+    padding: 2%;
     margin-right: 5%;
     border:none;
 
