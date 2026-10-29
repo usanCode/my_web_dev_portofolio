@@ -8,7 +8,6 @@ body{
 .landing-section{
     margin: auto;
     background-color:#c2bfbf ;
-    padding: 0.5%;
     width: 97%;
     height: 97%;
     border-radius: 20px;
@@ -72,8 +71,7 @@ font-size : 50px;
 .nav-links{
     display: flex;
     justify-content: right;
-    
-    
+     
     gap: 20px;
     font-family: inter;
     font-size: 18px;
@@ -89,11 +87,7 @@ font-size : 50px;
 .contact-button{
     background-color:#2a51f0 ;
     padding: 2%;
-    
-    
-    
-
-}
+  }
 .contact-button a {
 
     color:#fffdfd;
@@ -117,10 +111,14 @@ height: 45%;
 padding:1%;
 
 }
+.landing-paragraph{
+    text-align: justify;
+    
+}
 
 .text-main-container-butt{
     background-color:#2a51f0 ;
-     color:#fffdfd;
+    color:#fffdfd;
     font-weight: bold;
     font-family: inter;
 
@@ -133,5 +131,122 @@ padding:1%;
     padding:1%;
     justify-items: center;
 
+
+}
+
+.about-section{
+    
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.about-section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    width: 100%; 
+    box-sizing: border-box;
+   
+}
+
+.about-image-social-icons-container{
+   width: auto;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   
+}
+
+.about-image-main-container{
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+   width: 100%;
+   height: 100%;
+    
+ 
+  
+   
+}
+.about-image-main-container img{
+    
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 100%;
+  height: auto;
+ 
+     
+}
+
+.about-social-icons{
+
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 5; /* Explicitly forces icons to stay in front of the image */
+    /* Alignment without any transforms or negative numbers */
+  justify-self: center; /* Horizontally centers the icons inside the image */
+  align-self: end;      /* Vertically pushes icons to the absolute bottom of the image */
+    /* Spacing */
+  padding-bottom: 20px; /* Locks them exactly 20 pixels above the bottom edge */
+    /* Layout for the icons inside the container */
+  display: flex;
+  gap: 12px;
+
+}
+
+
+.about-social-icons ul{
+    
+    display: flex;   
+    width: 200px;
+    height: auto; 
+    margin: -20px;
+    padding: 2%;  
+    gap: 4%;   
+    list-style: none;
+    border: 2px solid #ffffff ;
+    justify-content: center;
+    box-shadow: 0px 0px 10px #737374; 
+    grid-area: overlay;
+  z-index: 1; /* Puts the container in front of the image */
+  background-color: #ffffff;
+     
+    
+ }
+
+.about-text-main-container{
+
+     width: 45%;
+     height: 45%;
+     padding:1%;
+
+}
+.about-text-container{
+    
+    padding: 2%;
+
+}
+.about-paragraph{
+    
+    text-align: justify;
+}
+.about-project{
+    background-color:#2a51f0 ;
+    color:#fffdfd;
+    font-weight: bold;
+    font-family: inter;
+    padding: 1%;
+    margin-right: 5%;
+}
+.about-download{
+    background-color:#fffdfd ; 
+    color:#2a51f0;
+    font-weight: bold;
+    font-family: inter;
+    padding: 1%;
+    margin-right: 5%;
+    border:none;
 
 }
