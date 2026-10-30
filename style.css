@@ -5,13 +5,7 @@ body{
     font-family: inter;
 }
 
-.landing-section{
-    margin: auto;
-    background-color:#c2bfbf ;
-    width: 97%;
-    height: 97%;
-    border-radius: 20px;
-}
+
 
 .title{
 text-align: center;
@@ -205,15 +199,7 @@ font-family:inter;
   width: 500px;
   height: 437px; 
   border-radius: 2%;
-
-
-  
- 
-  
-  
- 
- 
-     
+    
 }
 
 .about-social-icons{
@@ -293,4 +279,75 @@ font-family:inter;
     margin-right: 5%;
     border:none;
 
+}
+
+.skills-main-container{
+
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;           
+    gap: 20px; 
+    
+    
+
+}
+
+
+.skills-frontend-container{
+
+    border: 1px solid #323232 ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #2a51f0;
+    width:fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-self: center;
+
+}
+
+.skills-title{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.skills-card-container{
+     display: flex;       
+     gap: 20px;           
+     flex-wrap: wrap; 
+     justify-content: center;
+
+}
+.skills-card{
+  display: flex;       
+  flex-direction: column; 
+  align-items: center; 
+
+}
+
+.skills-backend-container{
+    border: 1px solid #323232 ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #2a51f0;
+    width:fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-self: center;
+
+
+}
+
+.skills-tools-container{
+    border: 1px solid #323232 ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #2a51f0;
+    width:23%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+
+.special-box {
+    grid-column: span 2;           
+    justify-self: center; 
 }
