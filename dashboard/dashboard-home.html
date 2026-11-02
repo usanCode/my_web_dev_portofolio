@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dashboard.css">
+    <title>Dashboard Home | Usanase</title>
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <aside class="sidebar">
+
+            <div class="logo-container">
+                <div class="logo">
+                    <span>U</span>
+                </div>
+                <p>Usanase</p>
+            </div>
+
+            <nav class="sidebar-navigation">
+                <ul>
+                    <li class="active">
+                        <a href="dashboard-home.html">
+                            <span class="nav-icon">⌂</span>
+                            <span>Overview</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard-blogs.html">
+                            <span class="nav-icon">▤</span>
+                            <span>Blogs</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard-add-a-blog.html">
+                            <span class="nav-icon">✎</span>
+                            <span>Add a blog</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <main class="dashboard-main">
+
+            <header class="dashboard-header">
+
+                <div class="dashboard-welcome">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back, Usanase</p>
+                </div>
+
+                <div class="header-actions">
+
+                    <button class="messages-button" type="button"
+                            aria-label="Messages">
+                        <span class="header-icon">▰</span>
+                        <span class="notification-count">3</span>
+                    </button>
+
+                    <button class="notifications-button" type="button"
+                            aria-label="Notifications">
+                        <span class="header-icon">♟</span>
+                        <span class="notification-count">3</span>
+                    </button>
+
+                    <div class="profile-container">
+                        <img
+                            src="../images/image.jpg"
+                            alt="Usanase's profile picture"
+                            class="profile-image"
+                        >
+                    </div>
+
+                </div>
+
+            </header>
+
+            <section class="dashboard-statistics"
+                     aria-label="Dashboard statistics">
+
+                <article class="stat-card blogs-stat">
+                    <div class="stat-information">
+                        <h2>Blogs</h2>
+                        <p class="stat-number">04</p>
+                    </div>
+                    <div class="stat-icon" aria-hidden="true">▤</div>
+                </article>
+
+                <article class="stat-card likes-stat">
+                    <div class="stat-information">
+                        <h2>Likes</h2>
+                        <p class="stat-number">12</p>
+                    </div>
+                    <div class="stat-icon" aria-hidden="true">👍</div>
+                </article>
+
+                <article class="stat-card comments-stat">
+                    <div class="stat-information">
+                        <h2>Comments</h2>
+                        <p class="stat-number">24</p>
+                    </div>
+                    <div class="stat-icon" aria-hidden="true">☰</div>
+                </article>
+
+            </section>
+
+            <section class="messages-panel">
+
+                <h2>Messages</h2>
+
+                <div class="message-list">
+
+                    <article class="message-item">
+                        <div class="message-content">
+                            <h3>John Doe</h3>
+                            <p>Hello. This is a test message.</p>
+                        </div>
+                        <button class="delete-message-button"
+                                type="button"
+                                aria-label="Delete message from John Doe">
+                            🗑
+                        </button>
+                    </article>
+
+                    <article class="message-item">
+                        <div class="message-content">
+                            <h3>John Doe</h3>
+                            <p>Hello. This is a test message.</p>
+                        </div>
+                        <button class="delete-message-button"
+                                type="button"
+                                aria-label="Delete message from John Doe">
+                            🗑
+                        </button>
+                    </article>
+
+                    <article class="message-item">
+                        <div class="message-content">
+                            <h3>John Doe</h3>
+                            <p>Hello. This is a test message.</p>
+                        </div>
+                        <button class="delete-message-button"
+                                type="button"
+                                aria-label="Delete message from John Doe">
+                            🗑
+                        </button>
+                    </article>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Blogs | Usanase</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <!-- Main dashboard -->
+    <div class="dashboard-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="logo-container">
+                <div class="logo">
+                    <span>U</span>
+                </div>
+                <p>Usanase</p>
+            </div>
+
+            <nav class="sidebar-navigation">
+                <ul>
+
+                    <li>
+                        <a href="dashboard-home.html">
+                            <span class="nav-icon">⌂</span>
+                            <span>Overview</span>
+                        </a>
+                    </li>
+
+                    <li class="active">
+                        <a href="dashboard-blogs.html">
+                            <span class="nav-icon">▤</span>
+                            <span>Blogs</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard-add-a-blog.html">
+                            <span class="nav-icon">✎</span>
+                            <span>Add a blog</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </aside>
+
+
+        <!-- Main content -->
+        <main class="dashboard-main">
+
+            <!-- Header -->
+            <header class="dashboard-header">
+
+                <div class="dashboard-welcome">
+                    <h1>Blogs</h1>
+                    <p>Manage your blog articles</p>
+                </div>
+
+                <div class="header-actions">
+
+                    <button class="messages-button"
+                            type="button"
+                            aria-label="Messages">
+                        <span class="header-icon">▰</span>
+                        <span class="notification-count">3</span>
+                    </button>
+
+                    <button class="notifications-button"
+                            type="button"
+                            aria-label="Notifications">
+                        <span class="header-icon">♟</span>
+                        <span class="notification-count">3</span>
+                    </button>
+
+                    <div class="profile-container">
+                        <img
+                            src="../images/image.jpg"
+                            alt="Usanase's profile picture"
+                            class="profile-image"
+                        >
+                    </div>
+
+                </div>
+
+            </header>
+
+            <section class="blog-management">
+
+                <div class="blog-management-heading">
+
+                    <h2>All Blogs</h2>
+
+                    <a href="dashboard-add-a-blog.html"
+                       class="add-blog-link">
+                        + Add a new blog
+                    </a>
+
+                </div>
+
+                <div class="blog-list">
+
+                    <article class="dashboard-blog-card">
+
+                        <div class="dashboard-blog-image">
+                            <img
+                                src="../images/blog-image-1.jpg"
+                                alt="Blog article cover"
+                            >
+                        </div>
+
+                        <div class="dashboard-blog-information">
+
+                            <h3>Blog Article Title One</h3>
+
+                            <p class="blog-date">
+                                Published: 12 October 2026
+                            </p>
+
+                            <p class="blog-description">
+                                A short introduction to the first blog article.
+                            </p>
+
+                        </div>
+
+                        <div class="blog-actions">
+
+                            <a href="#" class="edit-blog-link">
+                                Edit
+                            </a>
+
+                            <button type="button"
+                                    class="delete-blog-button">
+                                Delete
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                    <article class="dashboard-blog-card">
+
+                        <div class="dashboard-blog-image">
+                            <img
+                                src="../images/blog-image-2.jpg"
+                                alt="Blog article cover"
+                            >
+                        </div>
+
+                        <div class="dashboard-blog-information">
+
+                            <h3>Blog Article Title Two</h3>
+
+                            <p class="blog-date">
+                                Published: 12 October 2026
+                            </p>
+
+                            <p class="blog-description">
+                                A short introduction to the second blog article.
+                            </p>
+
+                        </div>
+
+                        <div class="blog-actions">
+
+                            <a href="#" class="edit-blog-link">
+                                Edit
+                            </a>
+
+                            <button type="button"
+                                    class="delete-blog-button">
+                                Delete
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                    <article class="dashboard-blog-card">
+
+                        <div class="dashboard-blog-image">
+                            <img
+                                src="../images/blog-image-3.jpg"
+                                alt="Blog article cover"
+                            >
+                        </div>
+
+                        <div class="dashboard-blog-information">
+
+                            <h3>Blog Article Title Three</h3>
+
+                            <p class="blog-date">
+                                Published: 12 October 2026
+                            </p>
+
+                            <p class="blog-description">
+                                A short introduction to the third blog article.
+                            </p>
+
+                        </div>
+
+                        <div class="blog-actions">
+
+                            <a href="#" class="edit-blog-link">
+                                Edit
+                            </a>
+
+                            <button type="button"
+                                    class="delete-blog-button">
+                                Delete
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
